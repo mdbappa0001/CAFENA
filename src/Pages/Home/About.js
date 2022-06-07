@@ -9,7 +9,7 @@ const About = () => {
 
                 <h2 className='text-center text-3xl lg:text-5xl font-bold text-white'><span className='text-orange-200'>About</span> Us</h2>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-12 lg:mt-24 px-12 mb-16'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-12 lg:mt-24 px-12'>
 
                     <div>
                         <img className='w-full lg:w-5/6' src={about} alt="" />
