@@ -1,7 +1,10 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
-import { AiFillStar } from 'react-icons/ai';
+import review1 from "../../images/review/pic-1.png";
+import review2 from "../../images/review/pic-2.png";
+import review3 from "../../images/review/pic-3.png";
+import quote from "../../images/review/quote-img.png";
 const Review = () => {
     const responsive = {
         superLargeDesktop: {
@@ -24,7 +27,7 @@ const Review = () => {
     };
     return (
         <div className='bg-black py-10 px-12'>
-            <h1 className='text-center font-bold text-[#ff0000] text-5xl py-5 '>Testimonial</h1>
+            <h1 className='text-center font-bold text-orange-200 text-5xl py-12 mb-12 '>Customer <span className='text-white'>Review</span></h1>
             <Carousel
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
@@ -32,66 +35,180 @@ const Review = () => {
 
             >
 
-                <div className='bg-white shadow-md  md:h-[250px] shadow-gray-700 mx-2 md:mx-0  my-5 p-5 md:w-[300px]'>
-                    <p>Awesome Photo PhotoGrapher Know his job. Super responsive always recommended. Best of Luck</p>
-                    <div className='flex items-end justify-between mt-3'>
-                        <div className='w-[70px] h-[70px] hover:bg-[#ff0000] bg-slate-900 rounded-full'>
-                            <img className='rounded-full w-16' src="https://i.ibb.co/TvsY3pX/pexels-andrea-piacquadio-733872-1.jpg" alt='' />
-                        </div>
-                        <div>
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /> <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /><AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <h3 className='font-extrabold text-xl text-slate-900]'>Cathleen</h3>
-                        </div>
-                    </div>
-
-                </div>
-                <div className='bg-white shadow-md  md:h-[250px] shadow-gray-700 mx-2 md:mx-0  my-5 p-5 md:w-[300px]'>
-                    <p>A curvy boudoir client was so worried about looking overweight in her images but she cries with delight when she sees how beautifully you have captured her figure</p>
-                    <div className='flex items-end justify-between mt-3'>
-                        <div className='w-[70px] h-[70px] hover:bg-[#ff0000] bg-slate-900 rounded-full'>
-                            <img className='rounded-full w-16' src="https://i.ibb.co/TvsY3pX/pexels-andrea-piacquadio-733872-1.jpg" alt='' />
-                        </div>
-                        <div>
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /> <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /><AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <h3 className='font-extrabold text-xl text-slate-900]'>Rosalinda</h3>
-                        </div>
-                    </div>
-
-                </div>
-                <div className='bg-white shadow-md  md:h-[250px] shadow-gray-700 mx-2 md:mx-0  my-5 p-5 md:w-[300px]'>
-                    <p>You meet one of your past clients on the street and she tells you that everyone who visits her home gushes over the wall gallery you created for her and how it’s the best thing she’s ever bought for her home.</p>
-                    <div className='flex items-end justify-between mt-3'>
-                        <div className='w-[70px] h-[70px] hover:bg-[#ff0000] bg-slate-900 rounded-full'>
-                            <img className='rounded-full w-16' src="https://i.ibb.co/TvsY3pX/pexels-andrea-piacquadio-733872-1.jpg" alt='' />
-                        </div>
-                        <div>
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /> <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /><AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <h3 className='font-extrabold text-xl text-slate-900]'>Baroka</h3>
+                <div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                                <img className='w-12 mb-4 ml-32' src={quote} alt="" />
+                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                            </div>
+                            <div class="rating">
+                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="avatar px-8 py-5">
+                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                        <img src={review1} alt='' />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>William Cox</h4>
+                                    <small className='font-extrabold'>*Canada</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                </div>
-                <div className='bg-white shadow-md  md:h-[250px] shadow-gray-700 mx-2 md:mx-0  my-5 p-5 md:w-[300px]'>
-                    <p>We had a great experience from start to finish. Everything from the first email, to the relaxed photo shoot to the delivery of our gorgeous products. First class!</p>
-                    <div className='flex items-end justify-between mt-3'>
-                        <div className='w-[70px] h-[70px] hover:bg-[#ff0000] bg-slate-900 rounded-full'>
-                            <img className='rounded-full w-16' src="https://i.ibb.co/TvsY3pX/pexels-andrea-piacquadio-733872-1.jpg" alt='' />
-                        </div>
-                        <div>
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /> <AiFillStar className='inline text-[#ffd52b] md:text-2xl' /><AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <AiFillStar className='inline text-[#ffd52b] md:text-2xl' />
-                            <h3 className='font-extrabold text-xl text-slate-900]'>Jenny</h3>
+
+                    <div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                            <img className='w-12 mb-4 ml-32' src={quote} alt="" />
+                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                            </div>
+                            <div class="rating">
+                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="avatar px-8 py-5">
+                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                        <img src={review2} alt='' />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>William Cox</h4>
+                                    <small className='font-extrabold'>*Canada</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                </div>
+
+                    <div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                            <img className='w-12 mb-4 ml-32' src={quote} alt="" />
+                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                            </div>
+                            <div class="rating">
+                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="avatar px-8 py-5">
+                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                        <img src={review3} alt='' />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>William Cox</h4>
+                                    <small className='font-extrabold'>*Canada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                            <img className='w-12 mb-4 ml-32' src={quote} alt="" />
+                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                            </div>
+                            <div class="rating">
+                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="avatar px-8 py-5">
+                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                        <img src={review1} alt='' />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>William Cox</h4>
+                                    <small className='font-extrabold'>*Canada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                            <img className='w-12 mb-4 ml-32' src={quote} alt="" />
+                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                            </div>
+                            <div class="rating">
+                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="avatar px-8 py-5">
+                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                        <img src={review2} alt='' />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>William Cox</h4>
+                                    <small className='font-extrabold'>*Canada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                            <img className='w-12 mb-4 ml-32' src={quote} alt="" />
+                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                            </div>
+                            <div class="rating">
+                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="avatar px-8 py-5">
+                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                        <img src={review3} alt='' />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>William Cox</h4>
+                                    <small className='font-extrabold'>*Canada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                
             </Carousel>
         </div>
 
