@@ -5,7 +5,7 @@ import { AiFillFacebook, AiFillTwitterSquare, AiFillInstagram, AiFillLinkedin } 
 const Footer = () => {
     const year = new Date().getFullYear()
     return (
-        <footer className='py-10 bg-black px-10'>
+        <footer className='py-10 bg-gray-900 px-10'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-white'>
                 <div>
                     <h2 className='text-2xl font-extrabold mb-6'>PhotoGrapher</h2>
