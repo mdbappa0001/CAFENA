@@ -9,7 +9,7 @@ const ServiceCard = ({ service }) => {
                 <div className='w-full h-full absolute '>
                     <span className='text-white font-bold text-lg z-20 bg-[#ff0000] p-2 m-5 inline-block'>$ {price}</span>
                 </div>
-                <img src={img} alt="" />
+                <img className='transform hover:scale-95' src={img} alt="" />
             </div>
             <h1 className='mt-3 font-bold text-center text-xl text-white'> {name}</h1>
             <p className='mt-3 font-normal text-center text-lg text-white'> {description}</p>
