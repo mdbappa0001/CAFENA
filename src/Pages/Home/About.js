@@ -7,7 +7,7 @@ const About = () => {
         <>
             <div className=' bg-black'>
 
-                <h2 className='text-center text-2xl lg:text-4xl font-bold text-white'>We Need Help on Furniture Importing from Us?</h2>
+                <h2 className='text-center text-3xl lg:text-5xl font-bold text-white'><span className='text-orange-200'>About</span> Us</h2>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-12 lg:mt-24 px-12 mb-16'>
 
@@ -15,7 +15,9 @@ const About = () => {
                         <img className='w-full lg:w-5/6' src={about} alt="" />
                     </div>
 
-                    <div className='justify-center text-center lg:mt-8 w-11/12 ml-4'>
+                    <div className='justify-center text-center lg:mt-2 pb-4 w-11/12 ml-4'>
+
+                        <h2 className='text-2xl lg:text-3xl text-center text-white font-bold mb-6'>What Makes Our Coffee Special?</h2>
 
                         <div className='flex items-center mb-6'>
                             <img className='w-6' src={bullet} alt="" />
