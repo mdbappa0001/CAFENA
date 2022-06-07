@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ServiceCard = ({ service }) => {
+const ServiceCard = ({ service, setServices }) => {
     const { img, name, description, price } = service
     return (
         <div className='border-2 relative h-[580px] md:h-[430px] lg:h-[600px] shadow-md shadow-slate-400'>

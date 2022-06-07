@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className='py-10 bg-gray-900 px-10'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-white'>
                 <div>
-                    <h2 className='text-2xl font-extrabold mb-6'>PhotoGrapher</h2>
+                    <h2 className='text-2xl font-extrabold mb-6'>Coffee</h2>
                     <q>When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.</q>
                 </div>
                 <div>
