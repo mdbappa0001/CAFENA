@@ -39,7 +39,7 @@ const About = () => {
                             <p className=' text-white ml-2'>Alliance Inc as a professional freight forwarder in China, know very well on our tool.</p>
                         </div>
 
-                        <button className='btn bg-orange-300 text-black w-full hover:text-orange-400'>Let Furniture Mart Recomended Best Furniture For You</button>
+                        <button className='btn bg-orange-300 text-black w-full hover:text-orange-400'>Let I Recomended You Best Coffee In The World </button>
                     </div>
 
                 </div>

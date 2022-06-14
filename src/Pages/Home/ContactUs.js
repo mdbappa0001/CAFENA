@@ -24,12 +24,12 @@ const ContactUs = () => {
 
                         <form onSubmit={orderPlaced}>
 
-                        <input type="email" placeholder="Email Address" class="input input-bordered input-error w-96 mb-6" /><br />
-                        <input type="text" placeholder="Subject" class="input input-bordered input-error w-96 mb-6" /><br />
-                        <textarea type="text" placeholder="Your Message" rows="4" class="input input-bordered input-error w-96 mb-6 h-48" /><br />
+                        <input type="email" placeholder="Email Address" class="input input-bordered input-error w-96 mb-6" required/><br />
+                        <input type="text" placeholder="Subject" class="input input-bordered input-error w-96 mb-6" required/><br />
+                        <textarea type="text" placeholder="Your Message" rows="4" class="input input-bordered input-error w-96 mb-6 h-48" required/><br />
                         <ToastContainer />
                        <div>
-                       <input type="submit" value="Contact Us" className='btn bg-lime-400 text-black hover:bg-orange-600 hover:text-white ml-28' />
+                       <input type="submit" value="Contact Us" className='btn bg-lime-400 text-black hover:bg-orange-600 hover:text-white ml-28' required/>
                        </div>
                        </form>
                         </div>

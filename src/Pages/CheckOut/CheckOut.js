@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
+import Footer from '../../Shared/Footer';
 
 const CheckOut = () => {
     const [name, setName] = useState('')
@@ -14,6 +15,7 @@ const CheckOut = () => {
     }
 
     return (
+        <>
         <section className='flex h-[80vh] justify-center items-center'>
             <div className='md:w-[400px]  border-2 shadow-lg shadow-red-500 px-14 py-9'>
 
@@ -43,6 +45,8 @@ const CheckOut = () => {
             </div>
 
         </section>
+<Footer></Footer>
+        </>
     );
 };
 

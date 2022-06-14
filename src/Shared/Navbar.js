@@ -5,11 +5,11 @@ import logo from "../../src/images/logo/logo.png";
 const Navbar = () => {
 
     const menuItems = <>
-        <li className='text-amber-300 font-bold'><Link to="/">Home</Link></li>
+        <li className='text-amber-300 font-bold text-xl'><Link to="/">Home</Link></li>
         {/* <li className='text-amber-300 font-bold'><Link to="/furniture">Furniture</Link></li> */}
-        <li className='text-amber-300 font-bold'><Link to="/blogs">Blog</Link></li>
-        <li className='text-amber-300 font-bold'><Link to="/myPortfolio">My Portfolio</Link></li>
-        <li className='text-amber-300 font-bold'><Link to="/login">Login</Link></li>
+        <li className='text-amber-300 font-bold text-xl'><Link to="/blogs">Blog</Link></li>
+        <li className='text-amber-300 font-bold text-xl'><Link to="/portfolio">My Portfolio</Link></li>
+        <li className='text-amber-300 font-bold text-xl'><Link to="/login">Login</Link></li>
     </>
 
     return (
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <a href=' ' className="btn btn-ghost normal-case text-2xl font-bold ml-24 text-amber-300 mr-96"> </a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal p-0 ml-96">
+                <ul className="menu menu-horizontal p-0 ml-80">
                     {menuItems}
                 </ul>
             </div>
