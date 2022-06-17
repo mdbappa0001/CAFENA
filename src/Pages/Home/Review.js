@@ -36,179 +36,179 @@ const Review = () => {
             >
 
                 <div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
-                            <div className="card-body">
-                                <img className='w-12 mb-4 ml-32' src={quote} alt="" />
-                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
-                            </div>
-                            <div class="rating">
-                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                            </div>
-                            <div className='flex items-center'>
-                                <div className="avatar px-8 py-5">
-                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
-                                        <img src={review1} alt='' />
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 className='text-xl font-bold'>William Cox</h4>
-                                    <small className='font-extrabold'>*Canada</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
-                            <div className="card-body">
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card-body">
                             <img className='w-12 mb-4 ml-32' src={quote} alt="" />
-                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
-                            </div>
-                            <div class="rating">
-                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                            </div>
-                            <div className='flex items-center'>
-                                <div className="avatar px-8 py-5">
-                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
-                                        <img src={review2} alt='' />
-                                    </div>
+                            <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                        </div>
+                        <div className="rating">
+                            <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" checked />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                        </div>
+                        <div className='flex items-center'>
+                            <div className="avatar px-8 py-5">
+                                <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                    <img src={review1} alt='' />
                                 </div>
-                                <div>
-                                    <h4 className='text-xl font-bold'>William Cox</h4>
-                                    <small className='font-extrabold'>*Canada</small>
-                                </div>
+                            </div>
+                            <div>
+                                <h4 className='text-xl font-bold'>William Cox</h4>
+                                <small className='font-extrabold'>*Canada</small>
                             </div>
                         </div>
                     </div>
+                </div>
 
 
-                    <div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
-                            <div className="card-body">
+                <div>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card-body">
                             <img className='w-12 mb-4 ml-32' src={quote} alt="" />
-                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
-                            </div>
-                            <div class="rating">
-                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                            </div>
-                            <div className='flex items-center'>
-                                <div className="avatar px-8 py-5">
-                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
-                                        <img src={review3} alt='' />
-                                    </div>
+                            <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                        </div>
+                        <div className="rating">
+                            <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" checked />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                        </div>
+                        <div className='flex items-center'>
+                            <div className="avatar px-8 py-5">
+                                <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                    <img src={review2} alt='' />
                                 </div>
-                                <div>
-                                    <h4 className='text-xl font-bold'>William Cox</h4>
-                                    <small className='font-extrabold'>*Canada</small>
-                                </div>
+                            </div>
+                            <div>
+                                <h4 className='text-xl font-bold'>William Cox</h4>
+                                <small className='font-extrabold'>*Canada</small>
                             </div>
                         </div>
                     </div>
+                </div>
 
 
-                    <div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
-                            <div className="card-body">
+                <div>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card-body">
                             <img className='w-12 mb-4 ml-32' src={quote} alt="" />
-                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
-                            </div>
-                            <div class="rating">
-                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                            </div>
-                            <div className='flex items-center'>
-                                <div className="avatar px-8 py-5">
-                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
-                                        <img src={review1} alt='' />
-                                    </div>
+                            <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                        </div>
+                        <div className="rating">
+                            <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" checked />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                        </div>
+                        <div className='flex items-center'>
+                            <div className="avatar px-8 py-5">
+                                <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                    <img src={review3} alt='' />
                                 </div>
-                                <div>
-                                    <h4 className='text-xl font-bold'>William Cox</h4>
-                                    <small className='font-extrabold'>*Canada</small>
-                                </div>
+                            </div>
+                            <div>
+                                <h4 className='text-xl font-bold'>William Cox</h4>
+                                <small className='font-extrabold'>*Canada</small>
                             </div>
                         </div>
                     </div>
+                </div>
 
 
-                    <div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
-                            <div className="card-body">
+                <div>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card-body">
                             <img className='w-12 mb-4 ml-32' src={quote} alt="" />
-                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
-                            </div>
-                            <div class="rating">
-                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                            </div>
-                            <div className='flex items-center'>
-                                <div className="avatar px-8 py-5">
-                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
-                                        <img src={review2} alt='' />
-                                    </div>
+                            <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                        </div>
+                        <div className="rating">
+                            <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" checked />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                        </div>
+                        <div className='flex items-center'>
+                            <div className="avatar px-8 py-5">
+                                <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                    <img src={review1} alt='' />
                                 </div>
-                                <div>
-                                    <h4 className='text-xl font-bold'>William Cox</h4>
-                                    <small className='font-extrabold'>*Canada</small>
-                                </div>
+                            </div>
+                            <div>
+                                <h4 className='text-xl font-bold'>William Cox</h4>
+                                <small className='font-extrabold'>*Canada</small>
                             </div>
                         </div>
                     </div>
+                </div>
 
 
-                    <div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
-                            <div className="card-body">
+                <div>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card-body">
                             <img className='w-12 mb-4 ml-32' src={quote} alt="" />
-                                <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
-                            </div>
-                            <div class="rating">
-                                <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffd52b]" />
-                            </div>
-                            <div className='flex items-center'>
-                                <div className="avatar px-8 py-5">
-                                    <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
-                                        <img src={review3} alt='' />
-                                    </div>
+                            <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                        </div>
+                        <div className="rating">
+                            <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" checked />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                        </div>
+                        <div className='flex items-center'>
+                            <div className="avatar px-8 py-5">
+                                <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                    <img src={review2} alt='' />
                                 </div>
-                                <div>
-                                    <h4 className='text-xl font-bold'>William Cox</h4>
-                                    <small className='font-extrabold'>*Canada</small>
-                                </div>
+                            </div>
+                            <div>
+                                <h4 className='text-xl font-bold'>William Cox</h4>
+                                <small className='font-extrabold'>*Canada</small>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                
+
+                <div>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card-body">
+                            <img className='w-12 mb-4 ml-32' src={quote} alt="" />
+                            <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
+                        </div>
+                        <div className="rating">
+                            <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" checked />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#ffd52b]" />
+                        </div>
+                        <div className='flex items-center'>
+                            <div className="avatar px-8 py-5">
+                                <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                                    <img src={review3} alt='' />
+                                </div>
+                            </div>
+                            <div>
+                                <h4 className='text-xl font-bold'>William Cox</h4>
+                                <small className='font-extrabold'>*Canada</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </Carousel>
         </div>
 

@@ -9,7 +9,7 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-    console.log(services)
+    // console.log(services)
     return (
         <div className='py-10 bg-black'>
             <h1 className='text-center font-bold text-white text-5xl mb-8'> Our <span className='text-orange-300'>Services</span></h1>

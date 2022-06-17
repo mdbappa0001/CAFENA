@@ -11,15 +11,14 @@ const CheckOut = () => {
     const orderPlaced = async (e) => {
         e.preventDefault()
         toast('Thank You Sir !!! Your Order Is Booked');
-        
     }
 
     return (
         <>
         <section className='flex h-[80vh] justify-center items-center'>
-            <div className='md:w-[400px]  border-2 shadow-lg shadow-red-500 px-14 py-9'>
+            <div className='card md:w-[400px]  border-2 shadow-lg shadow-red-500 px-14 py-9'>
 
-                <h1 className='font-extrabold text-2xl'>
+                <h1 className='font-extrabold text-2xl text-center'>
                     Order Info
                 </h1>
                 <form onSubmit={orderPlaced}>
@@ -38,7 +37,7 @@ const CheckOut = () => {
                     </div>
                     <ToastContainer />
                     <div className='my-5'>
-                        <input type="submit" value="Place Order" className='bg-[#fb5050] transition-all text-white font-semibold hover:bg-[#ff0000]  w-full py-2 cursor-pointer ' />
+                        <input type="submit" value="Place Order" className='bg-[#f33f3f] transition-all text-white font-semibold hover:bg-[#ff0000]  w-full py-2 cursor-pointer ' />
                     </div>
                 </form>
 
