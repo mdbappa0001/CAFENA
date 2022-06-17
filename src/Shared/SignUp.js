@@ -4,6 +4,7 @@ import auth from '../firebase.init';
 import { useForm } from 'react-hook-form';
 import Loading from './Loading';
 import { Link , useNavigate} from 'react-router-dom';
+import Footer from './Footer';
 
 const SignUp = () => {
 
@@ -44,7 +45,7 @@ const SignUp = () => {
     return (
         <>
             <div className='flex h-[90vh] justify-center items-center'>
-            <div className='card md:w-[400px]  border-2 shadow-lg shadow-red-500 px-6 py-9'>
+            <div className='card w-[400px]  border-2 shadow-lg shadow-red-500 px-6 py-7'>
                     <div className="card-body">
                         <h1 className='font-bold text-3xl text-[#ff0000] text-center'>
                             Sign Up
@@ -139,6 +140,7 @@ const SignUp = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     );
 };

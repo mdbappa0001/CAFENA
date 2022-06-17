@@ -21,12 +21,12 @@ const About = () => {
 
                         <div className='flex items-center mb-6'>
                             <img className='w-6' src={bullet} alt="" />
-                            <p className=' text-white ml-2'>Alliance Inc as a professional freight forwarder in China, know very well on our tool.</p>
+                            <p className=' text-white ml-2'>Good communication is just as stimulating as black coffee, and just as hard to sleep after.</p>
                         </div>
 
                         <div className='flex items-center mb-6'>
                             <img className='w-6' src={bullet} alt="" />
-                            <p className=' text-white ml-2'>Alliance Inc is expert on all importing process for your tools import from BanglaDesh.</p>
+                            <p className=' text-white ml-2'>If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee.</p>
                         </div>
 
                         <div className='flex items-center mb-6'>
@@ -36,7 +36,7 @@ const About = () => {
 
                         <div className='flex items-center mb-6'>
                             <img className='w-6' src={bullet} alt="" />
-                            <p className=' text-white ml-2'>Alliance Inc as a professional freight forwarder in China, know very well on our tool.</p>
+                            <p className=' text-white ml-2'>If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee.</p>
                         </div>
 
                         <button className='btn bg-orange-300 text-black w-full hover:text-orange-400'>Let I Recomended You Best Coffee In The World </button>
