@@ -8,11 +8,11 @@ const Footer = () => {
         <footer className='py-10 bg-black px-10'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-white'>
                 <div>
-                    <h2 className='text-2xl font-bold mb-6'>Coffee</h2>
-                    <q>When words become unclear, I shall focus with coffee. When best coffee is yours, then it enjoys become unlimited.</q>
+                    <h2 className='roboto text-2xl font-bold mb-6'>Coffee</h2>
+                    <q className='roboto'>When words become unclear, I shall focus with coffee. When best coffee is yours, then it enjoys become unlimited.</q>
                 </div>
                 <div>
-                    <h2 className='text-2xl font-bold mb-6'>Newsletter</h2>
+                    <h2 className='text-2xl font-bold mb-6 font-roboto'>Newsletter</h2>
                     <input type="email" name="email" placeholder='Enter' className='focus:outline-none' /> <button className='ml-2 bg-[#ff0000] px-2 '>Subscribe</button>
                 </div>
                 <div>
